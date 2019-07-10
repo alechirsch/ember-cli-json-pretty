@@ -1,8 +1,8 @@
 .json-pretty pre {
-    outline: 1px solid #bbb;
-    padding: 5px;
-    margin: 5px;
-    font-size: 8pt;
+	outline: 1px solid #bbb;
+	padding: 5px;
+	margin: 5px;
+	font-size: 8pt;
 }
 .json-pretty pre .string { color: #f00; }
 .json-pretty pre .number { color: #000; }
