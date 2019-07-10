@@ -1,8 +1,8 @@
 import Component from '@ember/component';
-import computed from '@ember/object'
+import { computed } from '@ember/object'
 import { htmlSafe } from '@ember/string';
 
-export default Ember.Component.extend({
+export default Component.extend({
 	attributeBindings: ['obj', 'shouldHighlight'],
 	classNames: ['json-pretty'],
 
