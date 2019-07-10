@@ -1,8 +1,10 @@
 import Component from '@ember/component';
 import { computed } from '@ember/object'
 import { htmlSafe } from '@ember/string';
+import layout from './template';
 
 export default Component.extend({
+	layout,
 	attributeBindings: ['obj', 'shouldHighlight'],
 	classNames: ['json-pretty'],
 
